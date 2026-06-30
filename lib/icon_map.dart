@@ -7450,11 +7450,8 @@ final iconMap = <String, IconData>{
   'zodiacVirgo': _MdiIconData(0xf0a88),
 };
 
-class _MdiIconData extends IconData {
-  const _MdiIconData(int codePoint)
-      : super(
-          codePoint,
-          fontFamily: 'Material Design Icons',
-          fontPackage: 'material_design_icons_flutter',
-        );
-}
+IconData _MdiIconData(int codePoint) => IconData(
+  codePoint,
+  fontFamily: 'Material Design Icons',
+  fontPackage: 'material_design_icons_flutter',
+);
