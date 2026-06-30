@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 
-const iconMap = <String, IconData>{
+final iconMap = <String, IconData>{
   'abTesting': _MdiIconData(0xf01c9),
   'abacus': _MdiIconData(0xf16e0),
   'abjadArabic': _MdiIconData(0xf1328),
